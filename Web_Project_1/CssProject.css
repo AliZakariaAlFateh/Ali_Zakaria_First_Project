@@ -1,0 +1,42 @@
+body{background:url('Project_Images/wellcom.jpg');
+background-repeat: no-repeat;
+background-size: cover;}
+#container{width:1000px;height: 400px;}
+
+#alpha{width:1000px;height:70px;text-align: center;margin-top: 15px}
+span{
+    width:12px;height:12px;margin-right: 13px;
+    color:white;background: black;
+    font-size:45px;}
+#submit{width: 200px;height: 40px;background: red;
+color: white;font-size: 20px;font-weight: bold;
+border-radius: 8px;border:7px solid #fff;}    
+#pict{width:1000px;height:300px;margin-top: 10px;}
+#myimg{width:700px;height: 500px;margin-left: 50%;border: 7px solid #00ff00;}
+#error{color:red;font-size:25px;}
+.Header{
+    width:1000px;height:50px;
+    color:#0000ff;margin:auto;
+    font-size:200%;text-align: center;
+    font-weight: bold;
+    background: white;
+    border: 3px blue solid;
+    border-radius: 23px;
+    margin-bottom: 15px;
+    }
+    .header2{
+    width:1000px;height:30px;
+    color:#000000;
+    font-size:150%;margin-top: 10px;
+    }
+.label{
+    height:40px;width:200px;
+    color:blue;background: black;
+    font-size:30px;
+    border-radius: 8px;
+    margin-top: 8px;
+    border:8px solid #ffffff;
+}
+#numbers{height:40px;width:200px;border-radius: 7px;
+border:7px solid #00ff00;font-size: 22px;
+}
