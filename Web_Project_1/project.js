@@ -33,7 +33,7 @@
                  //p1.Event_Target=submt.value;
                  p1.Event_Time=new Date();
                  p1.Event_Type=e.type;
-                 var con=p1.Event_Time+"++"+p1.Event_Type;
+                 var con="The time is : "+p1.Event_Time+" and the event is : "+p1.Event_Type;
                  //localStorage.setItem('submit',con);
                  if(localStorage.getItem("TheLoading")===null)
                  {
@@ -56,7 +56,7 @@
                  //p1.Event_Target=submt.value;
                  p1.Event_Time=new Date();
                  p1.Event_Type=e.type;
-                 var con=p1.Event_Time+"++"+p1.Event_Type;
+                 var con="The time is : "+p1.Event_Time+" , and the event is : "+p1.Event_Type;
                  //localStorage.setItem('submit',con);
                  if(localStorage.getItem("The UnLoading")===null)
                  {
@@ -102,7 +102,7 @@
                     p1.Event_Target=submt.value;
                     p1.Event_Time=new Date();
                     p1.Event_Type=e.type;
-                    var con=p1.Event_Target+"++"+p1.Event_Time+"++"+p1.Event_Type;
+                    var con="The value is : "+p1.Event_Target+" ,the time : "+p1.Event_Time+" , and the Event is : "+p1.Event_Type;
                     //localStorage.setItem('submit',con);
                     if(localStorage.getItem("submit")===null)
                     {
@@ -184,7 +184,7 @@
                     p1.Event_Target=e.target.textContent;
                     p1.Event_Time=new Date();
                     p1.Event_Type=e.type;
-                    var con=p1.Event_Target+"++"+p1.Event_Time+"++"+p1.Event_Type;
+                    var con="The letter is : "+p1.Event_Target+" , the time :  "+p1.Event_Time+",and the event is : "+p1.Event_Type;
                     // localStorage.setItem('LeterClick',con);
                     if(localStorage.getItem("span_Letter")===null)
                     {
