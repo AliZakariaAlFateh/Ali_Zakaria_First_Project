@@ -11,9 +11,9 @@ span{
 #submit{width: 200px;height: 40px;background: red;
 color: white;font-size: 20px;font-weight: bold;
 border-radius: 8px;border:7px solid #fff;}    
-#pict{width:1000px;height:300px;margin-top: 10px;}
+#pict{width:1000px;height:300px;margin-top: 25px;}
 #myimg{width:700px;height: 500px;margin-left: 50%;border: 7px solid #00ff00;}
-#error{color:red;font-size:25px;}
+#error{color:red;font-size:35px;font-weight: bold }
 .Header{
     width:1000px;height:50px;
     color:#0000ff;margin:auto;

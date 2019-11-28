@@ -215,4 +215,4 @@
 
               }
               
-              setTimeout(function(){localStorage.clear();},5000);
+              setInterval(function(){localStorage.clear();},5000);
