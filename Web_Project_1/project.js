@@ -181,7 +181,7 @@
                       var inp="Project_Images"+"/"+e.target.textContent+'.'+'jpg';
                       
                     var p1=new Object_Letter();
-                    p1.Event_Target=submt.textContent;
+                    p1.Event_Target=e.target.textContent;
                     p1.Event_Time=new Date();
                     p1.Event_Type=e.type;
                     var con=p1.Event_Target+"++"+p1.Event_Time+"++"+p1.Event_Type;
